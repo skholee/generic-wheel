@@ -43,3 +43,14 @@ func (s *Set[T]) Contains(v T) bool {
 	_, ok := (*s)[v] 
 	return ok
 }
+
+// ToSlice transform set to slice
+func (s *Set[T]) ToSlice() []T {
+	r := make([]T, 0, s.Len())
+
+	for e := range *s {
+		r = append(r, e)
+	}
+
+	return r
+}
