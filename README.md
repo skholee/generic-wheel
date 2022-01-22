@@ -12,6 +12,7 @@ generic-wheel is an generic wheel library fully written in Go generic syntax. It
 
 generic-wheel has the following wheel:
 * Dictionary
+* Set
 
 
 ## Running the Tests
