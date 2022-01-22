@@ -44,6 +44,13 @@ func (s *Set[T]) Contains(v T) bool {
 	return ok
 }
 
+// Clone create a new set with the same elements as s
+func (s *Set[T]) Clone() Set[T] {
+	r := Set[T]{}
+	r.Add(s.ToSlice()...)
+	return r
+}
+
 // ToSlice transform set to slice
 func (s *Set[T]) ToSlice() []T {
 	r := make([]T, 0, s.Len())
