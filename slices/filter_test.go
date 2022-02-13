@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-func Test_filter_should_conains_elems_satisfying_predicate(t *testing.T) {
+func Test_filter_should_contains_elems_satisfying_predicate(t *testing.T) {
 	tests := []struct {
 		name      string
 		input     []string
