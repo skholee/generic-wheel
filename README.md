@@ -13,6 +13,9 @@ generic-wheel is an generic wheel library fully written in Go generic syntax. It
 generic-wheel has the following wheel:
 * Dictionary
 * Set
+* Filter
+* Map
+* Reduce
 
 
 ## Running the Tests
@@ -26,3 +29,5 @@ go test -v ./...
 
 Apache V2.0
 
+### References
+https://go.googlesource.com/proposal/+/refs/heads/master/design/43651-type-parameters.md
