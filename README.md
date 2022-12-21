@@ -16,6 +16,7 @@ generic-wheel has the following wheel:
 * Filter
 * Map
 * Reduce
+* Option
 
 
 ## Running the Tests
