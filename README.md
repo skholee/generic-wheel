@@ -17,6 +17,7 @@ generic-wheel has the following wheel:
 * Map
 * Reduce
 * Option
+* Iterator
 
 
 ## Running the Tests
