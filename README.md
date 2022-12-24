@@ -1,6 +1,6 @@
 # generic-wheel
 
-generic-wheel is an generic wheel library fully written in Go generic syntax. It will provider Dictionary, Set, Map, Filter and Reduce.
+generic-wheel is an generic wheel library fully written in Go generic syntax. It will provider Dictionary, Set, Map, Filter, Reduce, Option and Iterator.
 
 
 ## Prepare
